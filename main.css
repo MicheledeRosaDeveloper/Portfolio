@@ -1,0 +1,43 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header li {
+    list-style: none;
+    display: inline;
+    padding: 2em;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    justify-content: center;
+    align-items: center;
+}
+
+#container > * {
+    width: 40%;
+    border-top:double ;
+    margin:5em;
+}
+
+#Profile{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 20px;
+}
+#Profilo > *{
+    height: 50%;
+    width: 50%;
+}
+#fotoProfilo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex: 50%;
+}
